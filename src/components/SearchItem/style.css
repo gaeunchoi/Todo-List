@@ -1,0 +1,12 @@
+.search-bar {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+
+  border: none;
+  border-bottom: 1px solid #eee;
+}
+
+.search-bar:focus {
+  outline: none;
+}
