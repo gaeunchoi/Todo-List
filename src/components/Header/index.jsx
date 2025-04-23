@@ -5,8 +5,6 @@ export default function Header() {
     new Date().getMonth() + 1
   }월 ${new Date().getDate()}일`;
 
-  console.log(today);
-
   return (
     <div className="header-container">
       <h1>📋 Todo List</h1>
